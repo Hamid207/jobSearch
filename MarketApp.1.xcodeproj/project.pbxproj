@@ -45,7 +45,7 @@
 		0329F75E2562A7DB0053C8D6 /* PreciselyCreatResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F75D2562A7DB0053C8D6 /* PreciselyCreatResumeViewModel.swift */; };
 		0329F7612562A8810053C8D6 /* CreatResumeTargetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F7602562A8810053C8D6 /* CreatResumeTargetViewModel.swift */; };
 		0329F767256408440053C8D6 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F766256408430053C8D6 /* MainCollectionViewCell.swift */; };
-		0329F76A256452470053C8D6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F769256452470053C8D6 /* UserTableViewCell.swift */; };
+		0329F76A256452470053C8D6 /* UserSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F769256452470053C8D6 /* UserSettingTableViewCell.swift */; };
 		0329F76D25647ED80053C8D6 /* IshAxtaranlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F76C25647ED80053C8D6 /* IshAxtaranlarViewController.swift */; };
 		0329F76F256481270053C8D6 /* JobSeekersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F76E256481270053C8D6 /* JobSeekersTableViewCell.swift */; };
 		0329F771256481360053C8D6 /* IshAxtaranlarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F770256481360053C8D6 /* IshAxtaranlarViewModel.swift */; };
@@ -54,6 +54,7 @@
 		0329F7A42565AF340053C8D6 /* FavoritesViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F7A32565AF340053C8D6 /* FavoritesViewController + Extension.swift */; };
 		0329F7A62565AF3F0053C8D6 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F7A52565AF3F0053C8D6 /* FavoritesViewModel.swift */; };
 		0329F7A82565AFE60053C8D6 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329F7A72565AFE60053C8D6 /* FavoritesTableViewCell.swift */; };
+		036705A0256879F500850777 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367059F256879F500850777 /* UserTableViewCell.swift */; };
 		037EEAC525593BA800034E9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037EEAC425593BA800034E9C /* AppDelegate.swift */; };
 		037EEAC725593BA800034E9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037EEAC625593BA800034E9C /* SceneDelegate.swift */; };
 		037EEAC925593BA800034E9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037EEAC825593BA800034E9C /* MainViewController.swift */; };
@@ -115,7 +116,7 @@
 		0329F75D2562A7DB0053C8D6 /* PreciselyCreatResumeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreciselyCreatResumeViewModel.swift; sourceTree = "<group>"; };
 		0329F7602562A8810053C8D6 /* CreatResumeTargetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatResumeTargetViewModel.swift; sourceTree = "<group>"; };
 		0329F766256408430053C8D6 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
-		0329F769256452470053C8D6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		0329F769256452470053C8D6 /* UserSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingTableViewCell.swift; sourceTree = "<group>"; };
 		0329F76C25647ED80053C8D6 /* IshAxtaranlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshAxtaranlarViewController.swift; sourceTree = "<group>"; };
 		0329F76E256481270053C8D6 /* JobSeekersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSeekersTableViewCell.swift; sourceTree = "<group>"; };
 		0329F770256481360053C8D6 /* IshAxtaranlarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshAxtaranlarViewModel.swift; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 		0329F7A32565AF340053C8D6 /* FavoritesViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesViewController + Extension.swift"; sourceTree = "<group>"; };
 		0329F7A52565AF3F0053C8D6 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		0329F7A72565AFE60053C8D6 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		0367059F256879F500850777 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		037EEAC125593BA800034E9C /* Job Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		037EEAC425593BA800034E9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		037EEAC625593BA800034E9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -372,7 +374,8 @@
 		0329F76B256452620053C8D6 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				0329F769256452470053C8D6 /* UserTableViewCell.swift */,
+				0367059F256879F500850777 /* UserTableViewCell.swift */,
+				0329F769256452470053C8D6 /* UserSettingTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -487,8 +490,8 @@
 		037EEAE825595FD200034E9C /* User */ = {
 			isa = PBXGroup;
 			children = (
-				03090C3F2568497100F23A61 /* UserSettingsVc */,
 				03090C44256849EA00F23A61 /* UserVc */,
+				03090C3F2568497100F23A61 /* UserSettingsVc */,
 				0329F76B256452620053C8D6 /* Cell */,
 				03090C4725684A3D00F23A61 /* ViewModel */,
 			);
@@ -609,7 +612,7 @@
 				0329F6FC255A8E560053C8D6 /* Router.swift in Sources */,
 				037EEAEC2559604900034E9C /* MainViewModel.swift in Sources */,
 				0329F720255D82D20053C8D6 /* CreateResumeViewController + Extension.swift in Sources */,
-				0329F76A256452470053C8D6 /* UserTableViewCell.swift in Sources */,
+				0329F76A256452470053C8D6 /* UserSettingTableViewCell.swift in Sources */,
 				03090C3C2568475F00F23A61 /* UserSettingViewController + Extension.swift in Sources */,
 				0329F773256481480053C8D6 /* IshAxtaranlarViewController + Extension.swift in Sources */,
 				0329F7A12565AEDA0053C8D6 /* FavoritesViewController.swift in Sources */,
@@ -629,6 +632,7 @@
 				0329F7A82565AFE60053C8D6 /* FavoritesTableViewCell.swift in Sources */,
 				0329F716255D70A90053C8D6 /* JobVacancyViewModel.swift in Sources */,
 				0329F737255EE99B0053C8D6 /* PreciselyCreatResumeViewController + Extension.swift in Sources */,
+				036705A0256879F500850777 /* UserTableViewCell.swift in Sources */,
 				0329F75E2562A7DB0053C8D6 /* PreciselyCreatResumeViewModel.swift in Sources */,
 				03090C4625684A3500F23A61 /* UserViewModel.swift in Sources */,
 				0329F733255ED6BA0053C8D6 /* KateqoryModel.swift in Sources */,

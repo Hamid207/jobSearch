@@ -15,7 +15,7 @@ extension UserSettingViewController {
 		userTabeleView.dataSource = self
 		userTabeleView.separatorStyle = .none
 		userTabeleView.allowsSelection = false // tableViewnu basmaq olmur
-		userTabeleView.register(UserTableViewCell.self, forCellReuseIdentifier: "userTableViewCellId")
+		userTabeleView.register(UserSettingTableViewCell.self, forCellReuseIdentifier: "iserSettingTableViewCellId")
 		userTabeleView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
 		//		userTabeleView.sectionFooterHeight = 10
 		userTabeleView.sectionHeaderHeight = 10
@@ -39,7 +39,7 @@ extension UserSettingViewController: UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		if let cell = tableView.dequeueReusableCell(withIdentifier: "userTableViewCellId", for: indexPath) as? UserTableViewCell {
+		if let cell = tableView.dequeueReusableCell(withIdentifier: "iserSettingTableViewCellId", for: indexPath) as? UserSettingTableViewCell {
 			return cell
 		}
 		return UITableViewCell()
